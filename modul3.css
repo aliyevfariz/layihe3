@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    background: #F5F5F6;
+    align-items: center;
+    padding: 0 100px ;
+    height: 50px;
+}
+.logo{
+    margin-right: 200px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-right: 40px;
+    font-size: 11px;
+}
+.menu ul li a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #959BA4;
+    text-decoration: none;
+}
+.header-right{
+    position: absolute;
+    right: 100px;
+  
+}
+.header-right button{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #000000;
+    width: 58px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.text h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    /* margin-left: 575px; */
+    margin-top: 70px;
+}
+.text-h1{
+    display: flex;
+    justify-content: center;
+    width: 84%;
+
+}
+.filter p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #9F9F9F;
+    margin-right: 40px;
+}
+.btn{
+    border-radius: 3px;
+    width: 257px;
+    display: flex;
+    color: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    height: 27px;
+    display: flex; 
+}
+.btn button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+    background-color: white;
+    width: 65px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1px -1px -1px 0px;
+}
+#RUB{
+    border-radius: 3px 0px 0px 3px;
+}
+.input-box{
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 259px;
+    height: 102px;
+    left: 253px;
+    top: 250px;
+    display: grid;
+    margin-top: 20px;
+    padding: 11px 0px 5px 14px;
+}
+.input-box p{
+    display: flex;
+    align-items: flex-end;
+}
+.input-box input{
+    border: none;
+    width: 124px;
+    height: 38px;
+}
+.filter{
+    display: flex;
+    margin-right: 150px;
+    /* width: 74%; */
+}
+
+.filter-usd{
+    /* width: 73%;
+    left: 850px;
+    top: 200px; */
+
+    
+}
+.btn-usd{
+    border-radius: 3px;
+    width: 257px;
+    display: flex;
+    color: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    height: 27px;
+    display: flex;
+}
+.btn-usd button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+    background-color: white;
+    width: 65px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1px -1px -1px 0px;
+}
+#USD{
+    border-radius: 3px 0px 0px 3px;
+    
+}
+.input-usd{
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 259px;
+    height: 102px;
+    left: 253px;
+    top: 250px;
+    display: grid;
+    margin-top: 20px;
+    padding: 11px 0px 5px 14px;
+}
+.input-usd p{
+    display: flex;
+    align-items: flex-end;
+}
+.input-usd input{
+    border: none;
+    width: 124px;
+    height: 38px;
+}
+.filter-usd p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #9F9F9F;
+    margin-right: 40px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button:hover{
+    background-color: #8128f5;
+}
+.btn-usd button:hover{
+    background-color: #8128f5;
+}
+.active{
+    background-color: #8128f5 !important;
+}
